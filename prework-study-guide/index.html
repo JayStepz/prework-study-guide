@@ -4,25 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Jakob's Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1>Jakob's Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
-          <li>Enter your HTML notes here</li>
+          <li>The opening tag is represented by these angle brackets (< >).</li>
+          <li>The closing tag is represented by these angle brackets (< / >).</li>
+          <li>The head element contains information about the webpage aka. metadata.</li>
+          <li>The head elements are not visible when a user looks at a webpage.</li>
+          <li>The body element represents the visible content shown to the user. Everything seen and interacted with should be here.</li>
+          <li>The declaration like (< ! doctype html >) (exclude space between ! and doctype) tells the browser what document type it should expect when opened.</li>
+          <li>A declaration is not case-sensitive.</li>
+          <li>An HTML attribute, like (lang="en"; webpage language English), defines additional info about an element.</li>
+          <li>HTML attributes are always defined in the beginning element, never at close.</li>
+          <li>Metadata contains important info about accessibility, search engines, and performance.</li>
+          <li>The style element defines the CSS styles associated with a website.</li>
+          <li>The base element defines the base URL for a webpage.</li>
+          <li>The link element connects an external resource to the HTML document.</li>
+          <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li>The script element embeds client-side scripts in the HTML document.</li>
+          <li>The charset element sets our character encoding.</li>
+          <li>The http-equiv element sets an HTTP header for content.</li>
+          <li>The viewport element sets the default view for our webpage.</li>
+          <li>Elements nested inside other elements are called Child Elements. The element holding them is called the Parent Element ie. body.</li>
+          <li>An element refers to the entire element from opening tag to closing tag. A tag refers to only what appears inside angle brackets.</li>
+          <li>Continue HTML notes here</li>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
           <li>Enter your CSS notes here</li>
         </ul>
       </section>
@@ -31,7 +52,16 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>Enter your Git notes here</li>
+          <li>git checkout branch-name: switch to named branch</li>
+          <li>git status: Lists all new or modified files to be committed</li>
+          <li>git branch: Lists all local branches in the current repository</li>
+          <li>git branch [branch-name]: Creates a new branch</li>
+          <li>git pull: Downloads bookmark history and incorporates changes</li>
+          <li>git push [bookmark]/[branch]: Combines bookmark's branch into current local branches</li>
+          <li>git push [alias] [branch]: Uploads all local branch commits to GitHub</li>
+          <li>cd [branch-name or directory]: Moves to path listed</li>
+          <li>code .: Opens VS Code (if not already open).</li>
+          <li>Continue Git notes here</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
@@ -43,7 +73,7 @@
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>I might be able to code after this is all over.</p>
     </footer>
   </body>
 </html>
